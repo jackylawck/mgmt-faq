@@ -23,12 +23,12 @@ Nobel Laureate Herbert Simon introduced the concept of **Bounded Rationality**, 
 Thus, in real-world business strategy, sophisticated leaders do not chase the non-existent "optimal solution"; instead, they pursue a **"Satisficing"** solution—a portmanteau of *Satisfy* and *Suffice*.
 
 ```mermaid
-graph TD
-    A[Facing Complex Decision Scenarios] --> B{Is Information/Time Infinite?}
-    B -->|No (Real World)| C[Bound by Cognitive & Environmental Limits<br>Bounded Rationality]
-    C --> D[Establish Core Acceptance Thresholds<br>Cutoff Criteria]
-    D --> E[Select the First Option Meeting Thresholds<br>Satisficing]
-    E --> F[Execute Rapidly and Adapt Dynamically<br>Agile Iteration]
+flowchart TD
+    A["Facing Complex Decision Scenarios"] --> B{"Is Information/Time Infinite?"}
+    B -->|"No (Real World)"| C["Bound by Cognitive & Environmental Limits<br>Bounded Rationality"]
+    C --> D["Establish Core Acceptance Thresholds<br>Cutoff Criteria"]
+    D --> E["Select the First Option Meeting Thresholds<br>Satisficing"]
+    E --> F["Execute Rapidly and Adapt Dynamically<br>Agile Iteration"]
 
     style E fill:#3f51b5,color:#fff,stroke:#333
 
