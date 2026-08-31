@@ -24,7 +24,7 @@ Lewin 的核心洞見在於：**單純增加推力只會增加組織的「彈簧
 
 ```mermaid
 flowchart LR
-    subgraph 推力 (Driving Forces)
+    subgraph Driving ["推力 (Driving Forces)"]
         D1[高層政策要求] --> 現狀
         D2[市場競爭壓力] --> 現狀
         D3[績效獎金誘因] --> 現狀
@@ -32,7 +32,7 @@ flowchart LR
     
     現狀((現狀平衡<br>Status Quo))
     
-    subgraph 阻力 (Restraining Forces)
+    subgraph Restraining ["阻力 (Restraining Forces)"]
         現狀 --- R1[對失業的恐懼]
         現狀 --- R2[學習新技能的焦慮]
         現狀 --- R3[舊系統的路徑依賴]
@@ -75,3 +75,5 @@ flowchart LR
 - [ ] **痛點溝通**：我們是否清楚向團隊說明了「如果不改變，公司與個人會面臨什麼生存危機」（解凍），而不僅僅是畫大餅？
 - [ ] **恐懼管理**：針對新系統，團隊最害怕失去什麼（地位、時間、安全感）？我們是否有具體對策來緩解這個恐懼？
 - [ ] **陣痛期資源**：在「變革期」中，我們是否暫時調降了常態 KPI 標準，給予團隊學習新技能的緩衝時間？
+
+
