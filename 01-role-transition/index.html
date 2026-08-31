@@ -65,66 +65,88 @@
 
     
     
-  <!-- Enterprise-grade Content Security Policy (Zero external unsafe injection) -->
+  <!-- 🛡️ 企業級 CSP 與安全標頭 (平衡 Mermaid、搜尋與流暢度) -->
   <meta http-equiv="Content-Security-Policy" content="
     default-src 'self';
-    script-src 'self' 'unsafe-inline' 'unsafe-eval';
+    script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net;
     style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
     font-src 'self' https://fonts.gstatic.com data:;
-    img-src 'self' data: https://jackylawck.github.io https://raw.githubusercontent.com;
+    img-src 'self' data: https: blob:;
     connect-src 'self';
     frame-ancestors 'none';
     form-action 'self';
     base-uri 'self';
     object-src 'none';
   ">
-
-  <!-- Clickjacking & Modern Browser Hardening -->
   <meta http-equiv="X-Frame-Options" content="DENY">
   <meta http-equiv="X-Content-Type-Options" content="nosniff">
   <meta name="referrer" content="strict-origin-when-cross-origin">
-  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=(), usb=(), screen-wake-lock=()">
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()">
 
-  <!-- PWA & Mobile Security -->
+  <!-- 🌐 雙語全球 SEO 核心標籤 -->
+  <meta name="author" content="Jacky Law / Executive Governance Team">
+  <meta name="keywords" content="Management FAQ, 現代管理學, CMI Chartered Manager, ICPM Certified Manager, Katz Skills, Mintzberg Roles, Delegation Matrix, 目標管理, 組織行為, 董事會治理, 雙語管理學">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://jackylawck.github.io/mgmt-faq/">
+
+  <!-- 📱 方便使用者加入手機畫面 (PWA & iOS Web Clip 支援) -->
   <link rel="manifest" href="../manifest.webmanifest">
   <meta name="theme-color" content="#3f51b5">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="mgmt-faq">
+  <link rel="apple-touch-icon" sizes="192x192" href="../assets/mgmt-faq192icon.png">
+  <link rel="apple-touch-icon" sizes="512x512" href="../assets/mgmt-faq512icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../assets/mgmt-faq192icon.png">
 
-  <!-- Structured Data Schema -->
+  <!-- 📱 Open Graph 社群分享卡片 -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jackylawck.github.io/mgmt-faq/">
+  <meta property="og:title" content="Executive Management FAQ & Practical Frameworks | 現代管理學實戰知識庫">
+  <meta property="og:description" content="專為企業主管與認證經理人打造的雙語管理學實戰知識庫，對齊 CMI、ICPM 國際標準與批判性管理思維。">
+  <meta property="og:image" content="https://jackylawck.github.io/mgmt-faq/assets/mgmt-faq512icon.png">
+  <meta property="og:locale" content="zh_HK">
+  <meta property="og:locale:alternate" content="en_US">
+
+  <!-- 🐦 Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://jackylawck.github.io/mgmt-faq/">
+  <meta name="twitter:title" content="Executive Management FAQ & Navigator">
+  <meta name="twitter:description" content="Practical, bilingual managerial toolkit aligning CMI and ICPM standards with academic rigor.">
+  <meta name="twitter:image" content="https://jackylawck.github.io/mgmt-faq/assets/mgmt-faq512icon.png">
+
+  <!-- 🔍 Google 結構化資料 (Schema.org) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Course",
     "name": "Executive Management FAQ & Practical Frameworks",
-    "alternateName": "現代管理學實戰知識庫與認證導航",
-    "description": "A structured, pain-point-driven managerial toolkit aligning CMI, ICPM, and MBA core competency models.",
+    "alternativeHeadline": "現代管理學實戰知識庫與認證導航",
+    "url": "https://jackylawck.github.io/mgmt-faq/",
+    "description": "A pain-point-driven managerial toolkit aligning CMI, ICPM, and MBA core competency models with critical thinking.",
+    "keywords": "Management Frameworks, CMI, ICPM, Role Transition, Strategic Alignment, Leadership, Delegation",
     "provider": {
       "@type": "Organization",
-      "name": "Executive Governance Team",
-      "url": "https://jackylawck.github.io/mgmt-faq/"
+      "name": "Executive Governance Team"
     },
-    "inLanguage": ["zh-Hant", "en"]
+    "publisher": {
+      "@type": "Person",
+      "name": "Jacky Law",
+      "url": "https://jackylawck.github.io/jackylawck/"
+    },
+    "inLanguage": ["zh-Hant-HK", "en-US"],
+    "isAccessibleForFree": true
   }
   </script>
 
-  <!-- Hardened Offline Service Worker Registration -->
+  <!-- ⚡ Service Worker 註冊 -->
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function() {
-        navigator.serviceWorker.register('../sw.js', { scope: '..' })
-          .then(function(reg) {
-            reg.onupdatefound = function() {
-              var installingWorker = reg.installing;
-              installingWorker.onstatechange = function() {
-                if (installingWorker.state === 'installed' && navigator.serviceWorker.controller) {
-                  console.info('[Security/PWA] New version verified. Ready for seamless reload.');
-                }
-              };
-            };
-          })
+        navigator.serviceWorker.register('../sw.js')
           .catch(function(err) {
-            console.warn('[Security/PWA] SW registration bounded: ', err);
+            console.warn('[PWA] SW registration bounded: ', err);
           });
       });
     }
