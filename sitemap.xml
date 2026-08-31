@@ -43,6 +43,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://jackylawck.github.io/mgmt-faq/en/01-role-transition/mintzberg-roles/"/>
     </url>
     <url>
+        <loc>https://jackylawck.github.io/mgmt-faq/02-strategy-alignment/bsc-okr-framework/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jackylawck.github.io/mgmt-faq/02-strategy-alignment/bsc-okr-framework/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jackylawck.github.io/mgmt-faq/en/02-strategy-alignment/bsc-okr-framework/"/>
+    </url>
+    <url>
         <loc>https://jackylawck.github.io/mgmt-faq/02-strategy-alignment/</loc>
         <lastmod>2026-08-31</lastmod>
         <changefreq>daily</changefreq>
@@ -104,6 +111,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://jackylawck.github.io/mgmt-faq/en/01-role-transition/mintzberg-roles/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://jackylawck.github.io/mgmt-faq/01-role-transition/mintzberg-roles/"/>
+    </url>
+    <url>
+        <loc>https://jackylawck.github.io/mgmt-faq/en/02-strategy-alignment/bsc-okr-framework/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jackylawck.github.io/mgmt-faq/en/02-strategy-alignment/bsc-okr-framework/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jackylawck.github.io/mgmt-faq/02-strategy-alignment/bsc-okr-framework/"/>
     </url>
     <url>
         <loc>https://jackylawck.github.io/mgmt-faq/en/02-strategy-alignment/</loc>
