@@ -1,0 +1,33 @@
+name: Deploy mgmt-faq to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install mkdocs-material[search] \
+                      mkdocs-static-i18n \
+                      mkdocs-minify-plugin \
+                      pymdown-extensions \
+                      jieba
+
+      - name: Build and deploy site
+        run: mkdocs gh-deploy --force
