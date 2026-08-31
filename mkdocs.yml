@@ -38,6 +38,22 @@ plugins:
             Strategy Alignment Overview: 模組總覽
             Intended vs Emergent Strategy: 意圖 vs. 湧現策略
             MBO & SMART Principles: MBO 與 SMART 邊界
+            BSC vs OKR: BSC vs. OKR 雙軌整合
+            03-change-management: 03 變革管理與組織韌性
+            Change Management Overview: 模組總覽
+            Lewin Force Field: Lewin 力場與解凍模型
+            Kotter 8 Steps: Kotter 八大變革步驟
+            Tuckman Team Stages: Tuckman 團隊發展階段
+            04-risk-decision: 04 決策思維與風險治理
+            Risk & Decision Overview: 模組總覽
+            Bounded Rationality: Simon 有限理性與滿意決策
+            Kahneman Systems: Kahneman 快思慢想與偏誤
+            Swiss Cheese Model: Reason 瑞士乾酪防禦模型
+            05-leadership-motivation: 05 領導力與組織激勵
+            Leadership & Motivation Overview: 模組總覽
+            Herzberg Dual-Factor: Herzberg 雙因素理論
+            Vroom Expectancy: Vroom 期望理論 (VIE)
+            Situational Leadership: Hersey-Blanchard 情境領導
             Disclaimer & Contact: 免責聲明與聯絡
         - locale: en
           name: English
@@ -126,4 +142,20 @@ nav:
       - Strategy Alignment Overview: 02-strategy-alignment/index.md
       - Intended vs Emergent Strategy: 02-strategy-alignment/intended-vs-emergent.md
       - MBO & SMART Principles: 02-strategy-alignment/mbo-smart.md
+      - BSC vs OKR: 02-strategy-alignment/bsc-okr-framework.md
+  - 03-change-management:
+      - Change Management Overview: 03-change-management/index.md
+      - Lewin Force Field: 03-change-management/lewin-force-field.md
+      - Kotter 8 Steps: 03-change-management/kotter-8-steps.md
+      - Tuckman Team Stages: 03-change-management/tuckman-stages.md
+  - 04-risk-decision:
+      - Risk & Decision Overview: 04-risk-decision/index.md
+      - Bounded Rationality: 04-risk-decision/bounded-rationality.md
+      - Kahneman Systems: 04-risk-decision/kahneman-systems.md
+      - Swiss Cheese Model: 04-risk-decision/swiss-cheese-model.md
+  - 05-leadership-motivation:
+      - Leadership & Motivation Overview: 05-leadership-motivation/index.md
+      - Herzberg Dual-Factor: 05-leadership-motivation/herzberg-dual-factor.md
+      - Vroom Expectancy: 05-leadership-motivation/vroom-expectancy.md
+      - Situational Leadership: 05-leadership-motivation/situational-leadership.md
   - Disclaimer & Contact: disclaimer.md
