@@ -7,10 +7,10 @@ copyright: "Copyright &copy; 2026 | Licensed under CC BY-NC 4.0"
 extra:
   alternate:
     - name: 繁體中文
-      link: /zh/
+      link: /mgmt-faq/
       lang: zh-Hant
     - name: English
-      link: /en/
+      link: /mgmt-faq/en/
       lang: en
   manifest: manifest.webmanifest
   social:
@@ -21,12 +21,13 @@ plugins:
   - i18n:
       docs_structure: suffix
       fallback_to_default: true
+      reconfigure_material: true
       languages:
         - locale: zh-Hant
           name: 繁體中文
           build: true
           default: true
-          link: /zh/
+          link: /
         - locale: en
           name: English
           build: true
@@ -41,6 +42,7 @@ plugins:
 theme:
   name: material
   custom_dir: overrides
+  language: zh-Hant
   features:
     - navigation.instant
     - navigation.tracking
@@ -102,9 +104,9 @@ markdown_extensions:
       custom_checkbox: true
 
 nav:
-  - 全景地圖: index.md
-  - 01 角色轉型與授權:
-      - 模組總覽: 01-role-transition/index.md
-      - Katz 三大管理技能: 01-role-transition/katz-skills.md
-      - Mintzberg 10 大角色: 01-role-transition/mintzberg-roles.md
-      - 授權矩陣與 90 天清單: 01-role-transition/delegation-matrix.md
+  - index.md
+  - 01-role-transition:
+      - 01-role-transition/index.md
+      - 01-role-transition/katz-skills.md
+      - 01-role-transition/mintzberg-roles.md
+      - 01-role-transition/delegation-matrix.md
