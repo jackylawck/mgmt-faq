@@ -99,6 +99,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://jackylawck.github.io/mgmt-faq/en/03-change-management/tuckman-stages/"/>
     </url>
     <url>
+        <loc>https://jackylawck.github.io/mgmt-faq/04-risk-decision/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jackylawck.github.io/mgmt-faq/04-risk-decision/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jackylawck.github.io/mgmt-faq/en/04-risk-decision/"/>
+    </url>
+    <url>
         <loc>https://jackylawck.github.io/mgmt-faq/en/disclaimer/</loc>
         <lastmod>2026-08-31</lastmod>
         <changefreq>daily</changefreq>
@@ -195,5 +202,12 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://jackylawck.github.io/mgmt-faq/en/03-change-management/tuckman-stages/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://jackylawck.github.io/mgmt-faq/03-change-management/tuckman-stages/"/>
+    </url>
+    <url>
+        <loc>https://jackylawck.github.io/mgmt-faq/en/04-risk-decision/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jackylawck.github.io/mgmt-faq/en/04-risk-decision/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jackylawck.github.io/mgmt-faq/04-risk-decision/"/>
     </url>
 </urlset>
