@@ -1,33 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
+        <loc>https://jackylawck.github.io/mgmt-faq/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jackylawck.github.io/mgmt-faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jackylawck.github.io/mgmt-faq/en/"/>
+    </url>
+    <url>
+        <loc>https://jackylawck.github.io/mgmt-faq/01-role-transition/delegation-matrix/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jackylawck.github.io/mgmt-faq/01-role-transition/delegation-matrix/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jackylawck.github.io/mgmt-faq/en/01-role-transition/delegation-matrix/"/>
+    </url>
+    <url>
+        <loc>https://jackylawck.github.io/mgmt-faq/01-role-transition/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jackylawck.github.io/mgmt-faq/01-role-transition/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jackylawck.github.io/mgmt-faq/en/01-role-transition/"/>
+    </url>
+    <url>
+        <loc>https://jackylawck.github.io/mgmt-faq/01-role-transition/katz-skills/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jackylawck.github.io/mgmt-faq/01-role-transition/katz-skills/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jackylawck.github.io/mgmt-faq/en/01-role-transition/katz-skills/"/>
+    </url>
+    <url>
+        <loc>https://jackylawck.github.io/mgmt-faq/01-role-transition/mintzberg-roles/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jackylawck.github.io/mgmt-faq/01-role-transition/mintzberg-roles/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jackylawck.github.io/mgmt-faq/en/01-role-transition/mintzberg-roles/"/>
+    </url>
+    <url>
         <loc>https://jackylawck.github.io/mgmt-faq/en/</loc>
         <lastmod>2026-08-31</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://jackylawck.github.io/mgmt-faq/en/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jackylawck.github.io/mgmt-faq/"/>
     </url>
     <url>
         <loc>https://jackylawck.github.io/mgmt-faq/en/01-role-transition/delegation-matrix/</loc>
         <lastmod>2026-08-31</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://jackylawck.github.io/mgmt-faq/en/01-role-transition/delegation-matrix/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jackylawck.github.io/mgmt-faq/01-role-transition/delegation-matrix/"/>
     </url>
     <url>
         <loc>https://jackylawck.github.io/mgmt-faq/en/01-role-transition/</loc>
         <lastmod>2026-08-31</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://jackylawck.github.io/mgmt-faq/en/01-role-transition/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jackylawck.github.io/mgmt-faq/01-role-transition/"/>
     </url>
     <url>
         <loc>https://jackylawck.github.io/mgmt-faq/en/01-role-transition/katz-skills/</loc>
         <lastmod>2026-08-31</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://jackylawck.github.io/mgmt-faq/en/01-role-transition/katz-skills/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jackylawck.github.io/mgmt-faq/01-role-transition/katz-skills/"/>
     </url>
     <url>
         <loc>https://jackylawck.github.io/mgmt-faq/en/01-role-transition/mintzberg-roles/</loc>
         <lastmod>2026-08-31</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://jackylawck.github.io/mgmt-faq/en/01-role-transition/mintzberg-roles/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jackylawck.github.io/mgmt-faq/01-role-transition/mintzberg-roles/"/>
     </url>
 </urlset>
