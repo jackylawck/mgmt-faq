@@ -34,6 +34,10 @@ plugins:
             Katz Three-Skill Model: Katz 三大管理技能
             Mintzberg 10 Roles: Mintzberg 10 大角色
             Delegation Matrix: 授權矩陣與 90 天清單
+            02-strategy-alignment: 02 策略解構與目標對齊
+            Strategy Alignment Overview: 模組總覽
+            Intended vs Emergent Strategy: 意圖 vs. 湧現策略
+            MBO & SMART Principles: MBO 與 SMART 邊界
             Disclaimer & Contact: 免責聲明與聯絡
         - locale: en
           name: English
@@ -118,4 +122,8 @@ nav:
       - Katz Three-Skill Model: 01-role-transition/katz-skills.md
       - Mintzberg 10 Roles: 01-role-transition/mintzberg-roles.md
       - Delegation Matrix: 01-role-transition/delegation-matrix.md
+  - 02-strategy-alignment:
+      - Strategy Alignment Overview: 02-strategy-alignment/index.md
+      - Intended vs Emergent Strategy: 02-strategy-alignment/intended-vs-emergent.md
+      - MBO & SMART Principles: 02-strategy-alignment/mbo-smart.md
   - Disclaimer & Contact: disclaimer.md
