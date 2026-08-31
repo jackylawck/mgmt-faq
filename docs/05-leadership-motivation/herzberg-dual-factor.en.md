@@ -33,32 +33,35 @@ flowchart TD
     
     style B fill:#78909c,color:#fff,stroke:#333
     style C fill:#3f51b5,color:#fff,stroke:#333
-Management Application: Job Enrichment
+
+```
+
+### Management Application: Job Enrichment
+
 To truly motivate employees, bonuses are not enough. Managers must implement "Job Enrichment"—vertically expanding a job by delegating planning, control, and decision-making authority down to the employee, thereby creating space for self-actualization and achievement.
 
-3. Certification Alignment
+---
+
+## 3. Certification Alignment
+
 === "CMI (Chartered Manager) Perspective"
-* Assessment Dimension: Motivating Teams to Achieve Goals
-* Practical Expectation: Managers must demonstrate the ability to design "Non-financial Rewards." For instance, delegating the leadership of a cross-functional project (a Motivator) rather than simply tossing out a cash bonus (a Hygiene Factor).
+* **Assessment Dimension**: `Motivating Teams to Achieve Goals`
+* **Practical Expectation**: Managers must demonstrate the ability to design "Non-financial Rewards." For instance, delegating the leadership of a cross-functional project (a Motivator) rather than simply tossing out a cash bonus (a Hygiene Factor).
 
 === "ICPM (Certified Manager) Perspective"
-* Assessment Dimension: Content Theories of Motivation
-* High-Frequency Exam Focus: Distinguishing between Maslow and Herzberg. Exams test situational awareness: if an employee complains the office is too cold or the boss is abrasive, that is a lack of Hygiene Factors. If they complain the work is tedious and unchallenging, that is a lack of Motivators.
+* **Assessment Dimension**: `Content Theories of Motivation`
+* **High-Frequency Exam Focus**: Distinguishing between Maslow and Herzberg. Exams test situational awareness: if an employee complains the office is too cold or the boss is abrasive, that is a lack of Hygiene Factors. If they complain the work is tedious and unchallenging, that is a lack of Motivators.
 
-4. Actionable Toolkit: The Dual-Factor Audit
+---
+
+## 4. Actionable Toolkit: The Dual-Factor Audit
+
 !!! success "Manager's Motivation Checklist"
-When facing team morale issues, verify in this sequence:
+*When facing team morale issues, verify in this sequence:*
 
+```
 - [ ] **Fix Hygiene First**: Have we neutralized the "toxic factors" that cause active dissatisfaction? (e.g., highly unreasonable overtime policies, toxic cross-departmental communication).
 - [ ] **Create Recognition**: In the past 30 days, have I given specific, public, and genuine praise to an employee for a specific contribution, rather than just handing out a bonus?
 - [ ] **Expand Autonomy**: Can we delegate micro-level decisions (previously hoarded by management) down to capable frontline employees to give them a sense of ownership?
 
----
-
-### 更新導航列 (`mkdocs.yml`) 指南
-
-請在 `mkdocs.yml` 補上這篇的選單路徑：
-
-**1. `nav_translations` 區塊新增：**
-```yaml
-            Herzberg Dual-Factor: Herzberg 雙因素理論
+```
