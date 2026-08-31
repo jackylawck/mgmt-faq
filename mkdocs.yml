@@ -4,6 +4,18 @@ site_author: Executive Governance Team
 site_url: https://jackylawck.github.io/mgmt-faq/
 copyright: "Copyright &copy; 2026 | Licensed under CC BY-NC 4.0"
 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/jackylawck/mgmt-faq
+      name: GitHub Repository
+    - icon: fontawesome/solid/user-tie
+      link: https://jackylawck.github.io/jackylawck/
+      name: 作者主頁 / Author Homepage
+    - icon: fontawesome/solid/bug
+      link: https://github.com/jackylawck/mgmt-faq/issues
+      name: 提交勘誤 / Report an Issue
+
 plugins:
   - i18n:
       docs_structure: suffix
@@ -22,6 +34,7 @@ plugins:
             Katz Three-Skill Model: Katz 三大管理技能
             Mintzberg 10 Roles: Mintzberg 10 大角色
             Delegation Matrix: 授權矩陣與 90 天清單
+            Disclaimer & Contact: 免責聲明與聯絡
         - locale: en
           name: English
           build: true
@@ -105,15 +118,4 @@ nav:
       - Katz Three-Skill Model: 01-role-transition/katz-skills.md
       - Mintzberg 10 Roles: 01-role-transition/mintzberg-roles.md
       - Delegation Matrix: 01-role-transition/delegation-matrix.md
-
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/jackylawck/mgmt-faq
-      name: GitHub Repository
-    - icon: fontawesome/solid/bug
-      link: https://github.com/jackylawck/mgmt-faq/issues/new
-      name: 提交勘誤 / Report an Issue
-    - icon: fontawesome/solid/envelope
-      link: mailto:your-email@example.com
-      name: 聯絡我們 / Contact
+  - Disclaimer & Contact: disclaimer.md
