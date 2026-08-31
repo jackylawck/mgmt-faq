@@ -70,4 +70,3 @@ This is not merely about definitions; it represents the most famous debate in st
 - [ ] **Capturing Emergence**: Has the frontline team discovered any new approaches that aren't in the annual KPIs but offer immense customer value? Have I escalated these to secure executive sponsorship?
 - [ ] **Empowerment Boundaries**: Do I protect at least 15% "bandwidth for innovation and trial-and-error" for my team to experiment outside the strict intended strategy?
 
-```
