@@ -32,20 +32,21 @@
 在大型跨部門營運中，最穩健的做法是**「以 BSC 護航，以 OKR 攻堅」**。
 
 ```mermaid
-quadrantChart
-    title 績效衡量雙軌矩陣
-    x-axis 日常維運 (BAU) --> 突破創新 (Breakthrough)
-    y-axis 低不確定性 --> 高不確定性
-    quadrant-1 "敏捷攻堅區 (OKR 為主)"
-    quadrant-2 "混合轉型區 (BSC+OKR)"
-    quadrant-3 "基礎防守區 (BSC 為主)"
-    quadrant-4 "專案優化區 (KPI 為主)"
-    "新產品研發": [0.8, 0.8]
-    "新興市場開拓": [0.9, 0.6]
-    "跨部門數位轉型": [0.6, 0.7]
-    "合規與資安稽核": [0.2, 0.2]
-    "既有客戶續約率": [0.3, 0.4]
-    "產線良率控制": [0.1, 0.3]
+flowchart TD
+    subgraph S2["高不確定性 (創新突破)"]
+        node_trans["混合轉型區 (BSC + OKR)<br>• 跨部門數位轉型"]
+        node_agile["敏捷攻堅區 (OKR 驅動)<br>• 新產品研發<br>• 新興市場開拓"]
+    end
+
+    subgraph S1["低不確定性 (常態穩定)"]
+        node_def["基礎防守區 (BSC 護航)<br>• 合規與資安稽核<br>• 既有客戶續約率"]
+        node_kpi["專案優化區 (KPI 衡量)<br>• 產線良率控制<br>• 成本優化"]
+    end
+
+    style node_agile fill:#3f51b5,color:#fff,stroke:#333
+    style node_def fill:#455a64,color:#fff,stroke:#333
+    style node_trans fill:#5c6bc0,color:#fff,stroke:#333
+    style node_kpi fill:#78909c,color:#fff,stroke:#333
 
 ```
 
@@ -69,6 +70,4 @@ quadrantChart
 - [ ] **基礎健康**：我們是否保留了核心的 BSC/KPI 來監控合規、資安與基礎財務底線，避免在追求 OKR 的過程中引發災難性風險？
 - [ ] **薪酬脫鉤**：我們是否明確告訴團隊，OKR 的失敗不會直接導致底薪或常態獎金的扣減，以保護創新的心理安全感？
 - [ ] **聚焦度**：本季的 OKR 是否被嚴格控制在 3 個 Objectives 以內？（若超過，代表你只是把 BSC 換個名字繼續做微觀管理）
-
-
 
