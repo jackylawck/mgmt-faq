@@ -37,14 +37,6 @@ plugins:
         - zh
       separator: '[\s\-，、。：；？!！]+'
   - tags
-  - minify:
-      minify_html: true
-      minify_css: true
-      minify_js: true
-      htmlmin_opts:
-        remove_comments: true
-        remove_empty_space: true
-      cache_safe: true
 
 theme:
   name: material
