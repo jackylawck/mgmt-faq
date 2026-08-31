@@ -979,20 +979,21 @@
 <hr />
 <h2 id="3-dual-track-matrix">3. 雙軌整合矩陣 (Dual-Track Matrix)<a class="headerlink" href="#3-dual-track-matrix" title="Permanent link">&para;</a></h2>
 <p>在大型跨部門營運中，最穩健的做法是<strong>「以 BSC 護航，以 OKR 攻堅」</strong>。</p>
-<pre class="mermaid"><code>quadrantChart
-    title 績效衡量雙軌矩陣
-    x-axis 日常維運 (BAU) --&gt; 突破創新 (Breakthrough)
-    y-axis 低不確定性 --&gt; 高不確定性
-    quadrant-1 "敏捷攻堅區 (OKR 為主)"
-    quadrant-2 "混合轉型區 (BSC+OKR)"
-    quadrant-3 "基礎防守區 (BSC 為主)"
-    quadrant-4 "專案優化區 (KPI 為主)"
-    "新產品研發": [0.8, 0.8]
-    "新興市場開拓": [0.9, 0.6]
-    "跨部門數位轉型": [0.6, 0.7]
-    "合規與資安稽核": [0.2, 0.2]
-    "既有客戶續約率": [0.3, 0.4]
-    "產線良率控制": [0.1, 0.3]
+<pre class="mermaid"><code>flowchart TD
+    subgraph S2["高不確定性 (創新突破)"]
+        node_trans["混合轉型區 (BSC + OKR)&lt;br&gt;• 跨部門數位轉型"]
+        node_agile["敏捷攻堅區 (OKR 驅動)&lt;br&gt;• 新產品研發&lt;br&gt;• 新興市場開拓"]
+    end
+
+    subgraph S1["低不確定性 (常態穩定)"]
+        node_def["基礎防守區 (BSC 護航)&lt;br&gt;• 合規與資安稽核&lt;br&gt;• 既有客戶續約率"]
+        node_kpi["專案優化區 (KPI 衡量)&lt;br&gt;• 產線良率控制&lt;br&gt;• 成本優化"]
+    end
+
+    style node_agile fill:#3f51b5,color:#fff,stroke:#333
+    style node_def fill:#455a64,color:#fff,stroke:#333
+    style node_trans fill:#5c6bc0,color:#fff,stroke:#333
+    style node_kpi fill:#78909c,color:#fff,stroke:#333
 </code></pre>
 <hr />
 <h2 id="4">4. 國際認證考核對齊<a class="headerlink" href="#4" title="Permanent link">&para;</a></h2>
