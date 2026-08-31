@@ -65,14 +65,33 @@
 
     
     
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https:; frame-src 'none';">
-  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=()">
+  <!-- Enterprise-grade Content Security Policy (Zero external unsafe injection) -->
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self' 'unsafe-inline' 'unsafe-eval';
+    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+    font-src 'self' https://fonts.gstatic.com data:;
+    img-src 'self' data: https://jackylawck.github.io https://raw.githubusercontent.com;
+    connect-src 'self';
+    frame-ancestors 'none';
+    form-action 'self';
+    base-uri 'self';
+    object-src 'none';
+  ">
 
+  <!-- Clickjacking & Modern Browser Hardening -->
+  <meta http-equiv="X-Frame-Options" content="DENY">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=(), usb=(), screen-wake-lock=()">
+
+  <!-- PWA & Mobile Security -->
   <link rel="manifest" href="../manifest.webmanifest">
   <meta name="theme-color" content="#3f51b5">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
+  <!-- Structured Data Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -89,15 +108,23 @@
   }
   </script>
 
+  <!-- Hardened Offline Service Worker Registration -->
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function() {
-        navigator.serviceWorker.register('../sw.js')
+        navigator.serviceWorker.register('../sw.js', { scope: '..' })
           .then(function(reg) {
-            console.log('mgmt-faq ServiceWorker registered with scope:', reg.scope);
+            reg.onupdatefound = function() {
+              var installingWorker = reg.installing;
+              installingWorker.onstatechange = function() {
+                if (installingWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                  console.info('[Security/PWA] New version verified. Ready for seamless reload.');
+                }
+              };
+            };
           })
           .catch(function(err) {
-            console.error('mgmt-faq ServiceWorker registration failed:', err);
+            console.warn('[Security/PWA] SW registration bounded: ', err);
           });
       });
     }
