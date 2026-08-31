@@ -4,34 +4,29 @@ site_author: Executive Governance Team
 site_url: https://jackylawck.github.io/mgmt-faq/
 copyright: "Copyright &copy; 2026 | Licensed under CC BY-NC 4.0"
 
-extra:
-  alternate:
-    - name: 繁體中文
-      link: /mgmt-faq/
-      lang: zh-Hant
-    - name: English
-      link: /mgmt-faq/en/
-      lang: en
-  manifest: manifest.webmanifest
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/jackylawck/mgmt-faq
-
 plugins:
   - i18n:
       docs_structure: suffix
       fallback_to_default: true
       reconfigure_material: true
       languages:
-        - locale: zh-Hant
+        - locale: zh
           name: 繁體中文
           build: true
           default: true
-          link: /
+          site_name: 現代管理學實戰知識庫
+          nav_translations:
+            Overview: 全景地圖
+            01-role-transition: 01 角色轉型與授權
+            Role Transition Overview: 模組總覽
+            Katz Three-Skill Model: Katz 三大管理技能
+            Mintzberg 10 Roles: Mintzberg 10 大角色
+            Delegation Matrix: 授權矩陣與 90 天清單
         - locale: en
           name: English
           build: true
           link: /en/
+          site_name: Executive Management FAQ
   - search:
       lang:
         - en
@@ -42,7 +37,7 @@ plugins:
 theme:
   name: material
   custom_dir: overrides
-  language: zh-Hant
+  language: zh
   features:
     - navigation.instant
     - navigation.tracking
@@ -104,9 +99,9 @@ markdown_extensions:
       custom_checkbox: true
 
 nav:
-  - index.md
+  - Overview: index.md
   - 01-role-transition:
-      - 01-role-transition/index.md
-      - 01-role-transition/katz-skills.md
-      - 01-role-transition/mintzberg-roles.md
-      - 01-role-transition/delegation-matrix.md
+      - Role Transition Overview: 01-role-transition/index.md
+      - Katz Three-Skill Model: 01-role-transition/katz-skills.md
+      - Mintzberg 10 Roles: 01-role-transition/mintzberg-roles.md
+      - Delegation Matrix: 01-role-transition/delegation-matrix.md
