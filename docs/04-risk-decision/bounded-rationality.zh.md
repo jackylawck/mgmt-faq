@@ -23,12 +23,12 @@
 因此，在真實世界的商業博弈中，高明的主管不追求不存在的「最優解」，而是追求**「滿意解 (Satisficing)」**——這個詞由 *Satisfy*（滿足）與 *Suffice*（夠用）複合而成。
 
 ```mermaid
-graph TD
-    A[面對複雜決策情境] --> B{資訊與時間是否無限?}
-    B -->|否 (真實世界)| C[受限於認知與邊界條件<br>Bounded Rationality]
-    C --> D[設定核心篩選門檻<br>Acceptance Thresholds]
-    D --> E[尋找第一個符合門檻的方案<br>滿意解 Satisficing]
-    E --> F[快速執行並動態修正<br>Agile Execution]
+flowchart TD
+    A["面對複雜決策情境"] --> B{"資訊與時間是否無限?"}
+    B -->|"否 (真實世界)"| C["受限於認知與邊界條件<br>Bounded Rationality"]
+    C --> D["設定核心篩選門檻<br>Acceptance Thresholds"]
+    D --> E["尋找第一個符合門檻的方案<br>滿意解 Satisficing"]
+    E --> F["快速執行並動態修正<br>Agile Execution"]
 
     style E fill:#3f51b5,color:#fff,stroke:#333
 
