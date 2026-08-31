@@ -5,11 +5,8 @@ on:
     branches:
       - main
 
-# Principle of Least Privilege
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: "pages"
@@ -24,13 +21,11 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          persist-credentials: true
 
       - name: Set up Secure Python Runtime
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-          cache: 'pip'
 
       - name: Validate Git Identity
         run: |
@@ -40,8 +35,7 @@ jobs:
       - name: Install Verified Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install --no-cache-dir \
-                      mkdocs-material \
+          pip install mkdocs-material \
                       mkdocs-static-i18n \
                       pymdown-extensions \
                       jieba
