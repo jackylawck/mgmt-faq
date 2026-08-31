@@ -92,6 +92,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://jackylawck.github.io/mgmt-faq/en/03-change-management/lewin-force-field/"/>
     </url>
     <url>
+        <loc>https://jackylawck.github.io/mgmt-faq/03-change-management/tuckman-stages/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jackylawck.github.io/mgmt-faq/03-change-management/tuckman-stages/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jackylawck.github.io/mgmt-faq/en/03-change-management/tuckman-stages/"/>
+    </url>
+    <url>
         <loc>https://jackylawck.github.io/mgmt-faq/en/disclaimer/</loc>
         <lastmod>2026-08-31</lastmod>
         <changefreq>daily</changefreq>
@@ -187,5 +194,6 @@
         <lastmod>2026-08-31</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://jackylawck.github.io/mgmt-faq/en/03-change-management/tuckman-stages/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jackylawck.github.io/mgmt-faq/03-change-management/tuckman-stages/"/>
     </url>
 </urlset>
