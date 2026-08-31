@@ -979,20 +979,21 @@
 <hr />
 <h2 id="3-the-dual-track-integration-matrix">3. The Dual-Track Integration Matrix<a class="headerlink" href="#3-the-dual-track-integration-matrix" title="Permanent link">&para;</a></h2>
 <p>In large, cross-functional operations, the most robust approach is to <strong>"Secure the perimeter with the BSC, and break new ground with OKRs."</strong></p>
-<pre class="mermaid"><code>quadrantChart
-    title Dual-Track Performance Matrix
-    x-axis BAU (Routine) --&gt; Breakthrough (Innovation)
-    y-axis Low Uncertainty --&gt; High Uncertainty
-    quadrant-1 "Agile Offense (OKR Driven)"
-    quadrant-2 "Hybrid Transition (BSC + OKR)"
-    quadrant-3 "Foundational Defense (BSC Driven)"
-    quadrant-4 "Process Optimization (KPI Driven)"
-    "New Product R&amp;D": [0.8, 0.8]
-    "Emerging Market Expansion": [0.9, 0.6]
-    "Cross-functional Digital Transformation": [0.6, 0.7]
-    "Compliance &amp; Security Audits": [0.2, 0.2]
-    "Existing Client Retention": [0.3, 0.4]
-    "Manufacturing Yield Rate": [0.1, 0.3]
+<pre class="mermaid"><code>flowchart TD
+    subgraph S2["High Uncertainty (Innovation &amp; Breakthrough)"]
+        node_trans["Hybrid Transition (BSC + OKR)&lt;br&gt;• Cross-functional Digital Transformation"]
+        node_agile["Agile Offense (OKR Driven)&lt;br&gt;• New Product R&amp;D&lt;br&gt;• Emerging Market Expansion"]
+    end
+
+    subgraph S1["Low Uncertainty (Stability &amp; BAU)"]
+        node_def["Foundational Defense (BSC Driven)&lt;br&gt;• Compliance &amp; Security Audits&lt;br&gt;• Client Retention"]
+        node_kpi["Process Optimization (KPI Driven)&lt;br&gt;• Yield Rate Control&lt;br&gt;• Cost Efficiency"]
+    end
+
+    style node_agile fill:#3f51b5,color:#fff,stroke:#333
+    style node_def fill:#455a64,color:#fff,stroke:#333
+    style node_trans fill:#5c6bc0,color:#fff,stroke:#333
+    style node_kpi fill:#78909c,color:#fff,stroke:#333
 </code></pre>
 <hr />
 <h2 id="4-certification-alignment">4. Certification Alignment<a class="headerlink" href="#4-certification-alignment" title="Permanent link">&para;</a></h2>
