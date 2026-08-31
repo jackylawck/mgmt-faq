@@ -1,8 +1,3 @@
-title: Module 02 Overview - Strategy Alignment & Goal Setting
-description: Explore the conflict between intended and emergent strategies, resolving the disconnect between board-level planning and frontline execution.
-keywords: [Strategy Alignment, Emergent Strategy, MBO, BSC, OKR, CMI Strategic Leadership, ICPM Planning]
----
-
 # Module 02 Overview: Strategy Alignment & Goal Setting
 
 > **Module Focus**: Bridging the Gap Between Boardroom Strategy and Frontline Execution  
