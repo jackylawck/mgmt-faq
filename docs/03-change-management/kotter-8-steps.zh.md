@@ -22,20 +22,20 @@
 
 ```mermaid
 flowchart TD
-    subgraph Phase 1: 創造氣候 (Create Climate for Change)
-        S1[1. 建立急迫感<br>Establish Urgency] --> S2[2. 建立領導聯盟<br>Form Guiding Coalition]
-        S2 --> S3[3. 塑造變革願景<br>Create a Vision]
+    subgraph Phase1 ["Phase 1: 創造氣候 (Create Climate for Change)"]
+        S1["1. 建立急迫感<br>Establish Urgency"] --> S2["2. 建立領導聯盟<br>Form Guiding Coalition"]
+        S2 --> S3["3. 塑造變革願景<br>Create a Vision"]
     end
 
-    subgraph Phase 2: 賦能全體 (Engage & Enable)
-        S3 --> S4[4. 溝通願景<br>Communicate Vision]
-        S4 --> S5[5. 授權行動與移除障礙<br>Empower Others to Act]
-        S5 --> S6[6. 創造短期勝利<br>Create Quick Wins]
+    subgraph Phase2 ["Phase 2: 賦能全體 (Engage & Enable)"]
+        S3 --> S4["4. 溝通願景<br>Communicate Vision"]
+        S4 --> S5["5. 授權行動與移除障礙<br>Empower Others to Act"]
+        S5 --> S6["6. 創造短期勝利<br>Create Quick Wins"]
     end
 
-    subgraph Phase 3: 落實文化 (Implement & Sustain)
-        S6 --> S7[7. 鞏固戰果並深化變革<br>Consolidate Improvements]
-        S7 --> S8[8. 將新制深植企業文化<br>Institutionalize New Approaches]
+    subgraph Phase3 ["Phase 3: 落實文化 (Implement & Sustain)"]
+        S6 --> S7["7. 鞏固戰果並深化變革<br>Consolidate Improvements"]
+        S7 --> S8["8. 將新制深植企業文化<br>Institutionalize New Approaches"]
     end
 
     style S1 fill:#3f51b5,color:#fff,stroke:#333
@@ -69,3 +69,4 @@ flowchart TD
 - [ ] **急迫感檢驗**：團隊中是否有超過 75% 的核心成員真心認為「維持現狀的風險，已經大於改變的痛苦」？
 - [ ] **聯盟權力結構**：我們的推動小組是否具備足夠的職權來批准預算，並具備足夠的技術威望來服眾？
 - [ ] **低垂的果實 (Low-hanging Fruit)**：我們是否已經設計好在專案啟動後的第 30 天，能向全公司展示的「第一個無可爭議的成功小案例」？
+
