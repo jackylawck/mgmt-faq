@@ -36,7 +36,6 @@ plugins:
         - en
         - zh
       separator: '[\s\-，、。：；？!！]+'
-      prebuild_index: true
   - tags
   - minify:
       minify_html: true
