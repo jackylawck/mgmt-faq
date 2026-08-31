@@ -50,6 +50,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://jackylawck.github.io/mgmt-faq/en/02-strategy-alignment/"/>
     </url>
     <url>
+        <loc>https://jackylawck.github.io/mgmt-faq/02-strategy-alignment/intended-vs-emergent/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jackylawck.github.io/mgmt-faq/02-strategy-alignment/intended-vs-emergent/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jackylawck.github.io/mgmt-faq/en/02-strategy-alignment/intended-vs-emergent/"/>
+    </url>
+    <url>
         <loc>https://jackylawck.github.io/mgmt-faq/en/disclaimer/</loc>
         <lastmod>2026-08-31</lastmod>
         <changefreq>daily</changefreq>
@@ -97,5 +104,12 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://jackylawck.github.io/mgmt-faq/en/02-strategy-alignment/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://jackylawck.github.io/mgmt-faq/02-strategy-alignment/"/>
+    </url>
+    <url>
+        <loc>https://jackylawck.github.io/mgmt-faq/en/02-strategy-alignment/intended-vs-emergent/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jackylawck.github.io/mgmt-faq/en/02-strategy-alignment/intended-vs-emergent/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://jackylawck.github.io/mgmt-faq/02-strategy-alignment/intended-vs-emergent/"/>
     </url>
 </urlset>
