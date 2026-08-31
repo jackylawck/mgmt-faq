@@ -105,3 +105,15 @@ nav:
       - Katz Three-Skill Model: 01-role-transition/katz-skills.md
       - Mintzberg 10 Roles: 01-role-transition/mintzberg-roles.md
       - Delegation Matrix: 01-role-transition/delegation-matrix.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/jackylawck/mgmt-faq
+      name: GitHub Repository
+    - icon: fontawesome/solid/bug
+      link: https://github.com/jackylawck/mgmt-faq/issues/new
+      name: 提交勘誤 / Report an Issue
+    - icon: fontawesome/solid/envelope
+      link: mailto:your-email@example.com
+      name: 聯絡我們 / Contact
