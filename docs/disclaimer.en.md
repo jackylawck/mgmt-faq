@@ -1,18 +1,19 @@
 ---
-title: Disclaimer & Feedback
-description: Disclaimer, intellectual property statements, and contribution guidelines for mgmt-faq.
+title: Disclaimer & Contact
+description: Academic disclaimer, trademark acknowledgment, and feedback channels for mgmt-faq.
+keywords: [Disclaimer, Error Reporting, Contact Author, Academic Rigor, Management Frameworks]
 ---
 
-# Disclaimer & Feedback
+# Disclaimer & Contact
 
-### 1. Educational and Research Purpose
-The management frameworks, actionable toolkits, and certification mappings provided in `mgmt-faq` are intended for **critical thinking, educational exploration, and Continuing Professional Development (CPD)**. They do not constitute formal legal, auditing, or executive consulting advice.
+### 1. Academic & Professional Exploration
+The management frameworks, critical reviews, and certification mappings provided in `mgmt-faq` are intended for **critical thinking, educational exploration, and Continuing Professional Development (CPD)**. They do not constitute formal legal, auditing, or executive consulting advice for specific corporate scenarios.
 
 ### 2. Trademark & Standards Acknowledgment
-All referenced certification frameworks (such as CMI, ICPM, ISO, etc.) are trademarks of their respective governing bodies. This repository is an independent open-source initiative.
+All referenced certification frameworks (such as CMI, ICPM, ISO, etc.) are trademarks of their respective governing bodies. This repository is an independent, non-profit knowledge curation project.
 
-### 3. Reporting Errors & Academic Inquiries
-We strive for absolute academic rigor. If you spot any citation discrepancy, translation nuance issue, or factual error:
+### 3. Reporting Inaccuracies & Author Inquiries
+We strive for absolute academic rigor. If you identify any citation discrepancy, conceptual nuance issue, or translation refinement:
 
-* **Open an Issue**: [Submit an issue on GitHub](https://github.com/jackylawck/mgmt-faq/issues)
-* **Email Inquiries**: `jackylawck@gmail.com`
+* **Author Homepage**: [jackylawck.github.io/jackylawck](https://jackylawck.github.io/jackylawck/)
+* **Submit an Issue**: [GitHub Issues](https://github.com/jackylawck/mgmt-faq/issues)
