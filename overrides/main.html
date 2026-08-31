@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https:; frame-src 'none';">
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=()">
+
+  <link rel="manifest" href="{{ 'manifest.webmanifest' | url }}">
+  <meta name="theme-color" content="#3f51b5">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Executive Management FAQ & Practical Frameworks",
+    "alternateName": "現代管理學實戰知識庫與認證導航",
+    "description": "A structured, pain-point-driven managerial toolkit aligning CMI, ICPM, and MBA core competency models.",
+    "provider": {
+      "@type": "Organization",
+      "name": "Executive Governance Team",
+      "url": "https://jackylawck.github.io/mgmt-faq/"
+    },
+    "inLanguage": ["zh-Hant", "en"]
+  }
+  </script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('{{ "sw.js" | url }}')
+          .then(function(reg) {
+            console.log('mgmt-faq ServiceWorker registered with scope:', reg.scope);
+          })
+          .catch(function(err) {
+            console.error('mgmt-faq ServiceWorker registration failed:', err);
+          });
+      });
+    }
+  </script>
+{% endblock %}
