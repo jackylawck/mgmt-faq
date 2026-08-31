@@ -1,43 +1,38 @@
 ---
-title: Overview
-description: Executive Management FAQ & Practical Frameworks. A pain-point-driven toolkit aligning with CMI and ICPM standards, providing actionable management theories and checklists.
-keywords: [Management, Executive Toolkit, CMI, ICPM, Organizational Behavior, Change Management, Pain-point Driven]
+title: Executive Management FAQ & Frameworks
+description: A practical management knowledge base tailored for cross-functional managers and HRBPs, aligned with CMI and ICPM standards.
+keywords: [Management, CMI, ICPM, Change Management, Strategy Alignment, Risk Governance, Leadership]
 ---
 
-# Executive Management FAQ & Navigator
-**Bridging Academic Theories with Boardroom Realities**
+# Executive Management FAQ & Frameworks
 
-> Say goodbye to dense, academic jargon. This knowledge base is meticulously designed for **Corporate Executives, HR Business Partners (HRBP), and Certified Managers**. We translate a century of classic management theories into actionable "prescriptions" for your daily managerial pain points.
-
----
-
-## The Philosophy: Pain-Point Driven
-
-Traditional management textbooks (like Robbins' *Management*) are structured around functional silos: Planning, Organizing, Leading, and Controlling (POLC). However, real-world boardroom crises rarely fit neatly into one category. 
-
-This project adopts a **"Symptoms first, Standards guided, Theories backed"** approach. Every module strictly aligns with the core competency frameworks of global authorities:
-* **[CMI]** Chartered Management Institute (UK)
-* **[ICPM]** Institute of Certified Professional Managers (US)
+> **Standards Alignment**: `CMI (Chartered Management Institute)` | `ICPM (Institute of Certified Professional Managers)`  
+> **Core Focus**: Systematically resolving governance, operational, and leadership dilemmas for executives, project leaders, and HRBPs.
 
 ---
 
-## The 6-Module Navigator
+## Why This Knowledge Base?
 
-When facing a managerial bottleneck, navigate directly to the corresponding module for theoretical insights and actionable checklists:
+Modern executives often face the gap between textbook theories and messy operational realities. This knowledge base bridges that divide by structuring every management model into a four-stage framework: **"Pain Point Scenario $\to$ Theory Deconstruction $\to$ Certification Alignment $\to$ Actionable Toolkit."**
 
-| Module | Real-World Managerial Pain Point | Theoretical Toolkit |
+---
+
+## The 5-Module Navigator
+
+When hitting an operational bottleneck, click the corresponding module below to access frameworks and actionable checklists:
+
+| Module & Topic | Executive Pain Point (Current Dilemma) | Core Frameworks & Toolkit |
 | :--- | :--- | :--- |
-| **[01. Role Transition & Delegation](01-role-transition/index.md)** | "Promoted but still micromanaging? Team is passive while you burn out?" | Katz 3-Skill Model, Mintzberg 10 Roles, Delegation Matrix |
-| **[02. Strategy Alignment](02-strategy-alignment/index.md)** | "Executive strategy constantly shifts; KPIs become meaningless numbers?" | MBO, SMART Criteria, BSC & OKR Integration |
-| **[03. Decision Making & Bias](03-decision-making/index.md)** | "Relying on gut feelings for complex decisions? Silos blame each other when things fail?" | 8 Cognitive Biases, Porter's 5 Forces, VRIO Framework |
-| **[04. Change Leadership](04-change-management/index.md)** | "Implementing a new IT system faces massive resistance and middle-management apathy?" | Kotter's 8-Step Model, Lewin's Force Field Analysis |
-| **[05. Motivation & Appraisal](05-motivation-performance/index.md)** | "High turnover despite pay raises? "Quiet quitting"? 1-on-1s turn defensive?" | Herzberg Two-Factor, Vroom Expectancy, Constructive 1-on-1s |
-| **[06. Governance & Ethics](06-governance-ethics/index.md)** | "How to establish internal controls to prevent managerial negligence and lawsuits?" | 3 Lines of Defense, Delegation of Authority (DoA), Ethical Decision Tree |
+| **[01. Role Transition & Delegation](01-role-transition/index.md)** | "Micromanaging everything after promotion; team is passive while you burn out?" | Katz 3 Skills, Mintzberg 10 Roles, Delegation Matrix & 90-Day Audit |
+| **[02. Strategy Alignment](02-strategy-alignment/index.md)** | "Strategy changes constantly; teams lack direction and KPIs become vanity metrics?" | Deliberate vs. Emergent Strategy, MBO & SMART Boundaries, BSC & OKR Integration |
+| **[03. Change Management](03-change-management/index.md)** | "New system deployments stall due to cross-functional friction and passive resistance?" | Lewin Force Field & 3 Stages, Kotter 8 Steps, Tuckman Team Dynamics |
+| **[04. Decision & Risk Governance](04-risk-decision/index.md)** | "Decisions made on gut feeling leading to finger-pointing and single points of failure?" | Simon Bounded Rationality, Kahneman System 1/2 Biases, Reason Swiss Cheese Model |
+| **[05. Leadership & Motivation](05-leadership-motivation/index.md)** | "Pay raises fail to retain talent; employees 'quiet quit' and appraisals escalate into conflict?" | Herzberg Dual-Factor, Vroom VIE Expectancy, Hersey-Blanchard Situational Leadership |
 
 ---
 
-## How to Use This Toolkit
+## How to Get the Most Value
 
-1. **Progressive Web App (PWA)**: This site supports offline caching. Click the "Install" icon in your browser's address bar to add it to your mobile or desktop home screen for instant access anywhere.
-2. **Bilingual Immersion (i18n)**: Use the language switcher at the top to toggle between Traditional Chinese and English. Perfect for mastering professional terminologies for international exams (CMI / MBA).
-3. **Action-Oriented**: Skip the dense academic background and jump straight to the `Actionable Toolkit & Checklists` at the bottom of every page to solve immediate crises.
+1. **Navigate by Pain Point**: Use the matrix above to jump directly to operational scenarios and diagnostic checklists.
+2. **Certification Prep**: Each module highlights CMI and ICPM exam competencies to reinforce practical application.
+3. **Bilingual Toggle**: Use the language switcher in the top navigation bar to seamlessly alternate between English and Traditional Chinese.
