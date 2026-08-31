@@ -32,20 +32,21 @@
 In large, cross-functional operations, the most robust approach is to **"Secure the perimeter with the BSC, and break new ground with OKRs."**
 
 ```mermaid
-quadrantChart
-    title Dual-Track Performance Matrix
-    x-axis BAU (Routine) --> Breakthrough (Innovation)
-    y-axis Low Uncertainty --> High Uncertainty
-    quadrant-1 "Agile Offense (OKR Driven)"
-    quadrant-2 "Hybrid Transition (BSC + OKR)"
-    quadrant-3 "Foundational Defense (BSC Driven)"
-    quadrant-4 "Process Optimization (KPI Driven)"
-    "New Product R&D": [0.8, 0.8]
-    "Emerging Market Expansion": [0.9, 0.6]
-    "Cross-functional Digital Transformation": [0.6, 0.7]
-    "Compliance & Security Audits": [0.2, 0.2]
-    "Existing Client Retention": [0.3, 0.4]
-    "Manufacturing Yield Rate": [0.1, 0.3]
+flowchart TD
+    subgraph S2["High Uncertainty (Innovation & Breakthrough)"]
+        node_trans["Hybrid Transition (BSC + OKR)<br>• Cross-functional Digital Transformation"]
+        node_agile["Agile Offense (OKR Driven)<br>• New Product R&D<br>• Emerging Market Expansion"]
+    end
+
+    subgraph S1["Low Uncertainty (Stability & BAU)"]
+        node_def["Foundational Defense (BSC Driven)<br>• Compliance & Security Audits<br>• Client Retention"]
+        node_kpi["Process Optimization (KPI Driven)<br>• Yield Rate Control<br>• Cost Efficiency"]
+    end
+
+    style node_agile fill:#3f51b5,color:#fff,stroke:#333
+    style node_def fill:#455a64,color:#fff,stroke:#333
+    style node_trans fill:#5c6bc0,color:#fff,stroke:#333
+    style node_kpi fill:#78909c,color:#fff,stroke:#333
 
 ```
 
